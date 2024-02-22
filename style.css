@@ -1,0 +1,146 @@
+@font-face {
+    font-family: azoft;
+    src: url(media/Fonts/Azoft.ttf);
+}
+
+@font-face {
+    font-family: clearsans;
+    src: url(media/Fonts/ClearSans.ttf);
+}
+
+@font-face {
+    font-family: dejavu;
+    src: url(media/Fonts/DejaVuSans.ttf);
+}
+
+@font-face {
+    font-family: comicrlf;
+    src: url(media/Fonts/ComicRelief.ttf);
+}
+
+body {
+    background-color: rgb(43, 43, 43);
+}
+
+header {
+    text-align: center;
+    font-family: azoft;
+    color: aliceblue;
+    margin-top: 7px;
+    background-color: rgb(84, 84, 84);
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    cursor: default;
+}
+
+a:hover {
+    color: aliceblue;
+    text-decoration: none;
+    cursor: default;
+}
+
+.main {
+    background-color: rgb(66, 66, 66);
+    color: aliceblue;
+    font-family: dejavu;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    padding: 7px;
+}
+
+.imgMain {
+    color: aliceblue;
+}
+
+.imgMain:hover {
+    filter: brightness(95%);
+}
+
+.imgKTWC {
+    size: 30%;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.tooltip-wrap {
+    position: relative;
+    width: 68.4%;
+    margin-left: 15.8%;
+}
+
+.tooltip-wrap .tooltip-content {
+    display: none;
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+    right: 5%;
+    background-color: #ffffff00;
+    padding: .5em;
+    min-width: 10rem;
+    font-family: dejavu;
+    color: #ffffff; 
+}
+
+.tooltip-wrap:hover .tooltip-content {
+    display: block;
+}
+
+.brghover:hover {
+    filter: brightness(60%);
+    filter: blur(80%);
+}
+
+.tooltip-content:hover element {
+    opacity: 1;
+}
+
+.tooltip-content element:hover {
+    display: none;
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+    right: 5%;
+    background-color: #ffffff00;
+    padding: .5em;
+    min-width: 10rem;
+    font-family: dejavu     ;
+    color: #ffffff; 
+}
+
+.nctlg {
+    text-align: center;
+    font-family: azoft;
+    color: aliceblue;
+    margin-top: 7px;
+    background-color: rgb(84, 84, 84);
+}
+
+.named {
+    font-family: clearsans;
+    background-color: rgb(66, 66, 66);
+    width: 68.4%;
+    margin-left: 15.8%;
+}
+
+.dcrp {
+    background-color: rgb(53, 52, 52);
+    font-family: clearsans;
+    width: 68.4%;
+    margin-left: 15.8%;
+    margin-top: -10px;
+}
+
+#imgscrl {
+    width: 100%;
+}
+
+.imagescroll {
+    width: 68.4%;
+}
