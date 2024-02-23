@@ -19,15 +19,17 @@
 }
 
 body {
+    background-image: url(media/Image/Plugin/file\ cover\ -\ 1.png);
     background-color: rgb(43, 43, 43);
 }
 
 header {
     text-align: center;
-    font-family: azoft;
     color: aliceblue;
-    margin-top: 7px;
-    background-color: rgb(84, 84, 84);
+    background-color: rgb(80, 80, 80);
+    font-size: 125%;
+    font-family: clearsans;
+    padding: 12px;
 }
 
 a {
@@ -52,95 +54,54 @@ a:hover {
     padding: 7px;
 }
 
-.imgMain {
-    color: aliceblue;
-}
-
-.imgMain:hover {
-    filter: brightness(95%);
-}
-
-.imgKTWC {
-    size: 30%;
-}
-
 .center {
     text-align: center;
     align-items: center;
 }
 
-.tooltip-wrap {
-    position: relative;
-    width: 68.4%;
-    margin-left: 15.8%;
-}
-
-.tooltip-wrap .tooltip-content {
-    display: none;
-    position: absolute;
-    bottom: 50%;
-    left: 5%;
-    right: 5%;
-    background-color: #ffffff00;
-    padding: .5em;
-    min-width: 10rem;
-    font-family: dejavu;
-    color: #ffffff; 
-}
-
-.tooltip-wrap:hover .tooltip-content {
-    display: block;
-}
-
-.brghover:hover {
-    filter: brightness(60%);
-    filter: blur(80%);
-}
-
-.tooltip-content:hover element {
-    opacity: 1;
-}
-
-.tooltip-content element:hover {
-    display: none;
-    position: absolute;
-    bottom: 50%;
-    left: 5%;
-    right: 5%;
-    background-color: #ffffff00;
-    padding: .5em;
-    min-width: 10rem;
-    font-family: dejavu     ;
-    color: #ffffff; 
-}
-
-.nctlg {
-    text-align: center;
-    font-family: azoft;
-    color: aliceblue;
-    margin-top: 7px;
-    background-color: rgb(84, 84, 84);
-}
-
-.named {
-    font-family: clearsans;
-    background-color: rgb(66, 66, 66);
-    width: 68.4%;
-    margin-left: 15.8%;
-}
-
-.dcrp {
-    background-color: rgb(53, 52, 52);
-    font-family: clearsans;
-    width: 68.4%;
-    margin-left: 15.8%;
-    margin-top: -10px;
-}
-
-#imgscrl {
+#mainimg {
     width: 100%;
 }
 
-.imagescroll {
-    width: 68.4%;
+.ff1 {
+    font-family: azoft;
+}
+
+.ff2 {
+    font-family: clearsans;
+}
+
+.ff3 {
+    font-family: dejavu;
+}
+
+.ff4 {
+    font-family: comicrlf;
+}
+
+.katinfo {
+    background-color: aliceblue;
+    padding: 20px;
+    font-family: clearsans;
+}
+
+.named {
+    font-family: dejavu;
+    margin-left: 420px;
+    margin-top: -15px;
+}
+
+#katimg {
+    width: 49%;
+    margin-left: 52%;
+    margin-top: -45px;
+}
+
+.about-left {
+    background-color: rgb(194, 159, 159);
+    width: 53%;
+    margin-top: -615px;
+    padding: 200px 0 200px 0;
+    font-family: clearsans;
+    font-size: 170%;
 }
