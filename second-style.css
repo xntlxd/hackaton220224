@@ -148,6 +148,10 @@ input[name="r"] {
     margin-left: -75%;
 }
 
+.mrg-slid {
+    margin-top: -18.5%;
+}
+
 @-moz-document url-prefix() {
 
     .right-name {
@@ -174,6 +178,10 @@ input[name="r"] {
 
         margin-left: 53%;
 
+    }
+
+    .mrg-slid {
+        margin-top: 18.5%;
     }
 
 } 
