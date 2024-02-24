@@ -21,6 +21,7 @@
 body {
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
+    border: none;
 }
 
 header {
@@ -39,7 +40,7 @@ a {
 }
 
 a:hover {
-    color: aliceblue;
+    color: rgb(201, 224, 245);
     text-decoration: none;
     cursor: default;
 }
@@ -155,6 +156,10 @@ a:hover {
     border-color: black;
 }
 
+.clickable {
+    color: black;
+}
+
 /* Пора делать костыли для firefox'a 😈 */
 
 @-moz-document url-prefix() {
@@ -171,4 +176,6 @@ a:hover {
         width: 47%;
         margin-left: 53%;
     }
-}        
+}      
+
+* { margin: 0; padding: 0; } 
