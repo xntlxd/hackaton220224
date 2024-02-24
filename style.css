@@ -154,3 +154,21 @@ a:hover {
     border: 5px;
     border-color: black;
 }
+
+/* Пора делать костыли для firefox'a 😈 */
+
+@-moz-document url-prefix() {
+    .right-name {
+        margin-bottom: -10px;
+    }
+    .left-name {
+        margin-bottom: 0px;
+    }
+    .right-img {
+        width: 47%;
+    }
+    .left-img {
+        width: 47%;
+        margin-left: 53%;
+    }
+}        
