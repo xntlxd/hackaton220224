@@ -143,3 +143,14 @@ a:hover {
     margin-bottom: 5px;
     color: black;
 }
+
+.footer {
+    background-color: rgb(250, 161, 191);
+    padding: 20px;
+    border: 10px palevioletred;
+}
+
+.kat {
+    border: 5px;
+    border-color: black;
+}
