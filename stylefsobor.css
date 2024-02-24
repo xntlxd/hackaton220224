@@ -68,7 +68,7 @@ header {
 .footer {
     background-color: rgb(250, 161, 191);
     padding: 20px;
-    margin-top: 37%;
+    margin-top: 36%;
 }
 
 .clickable {
@@ -83,7 +83,7 @@ header {
     width: 1100px;
     height: 600px;
     overflow: hidden;
-    border: 10px solid rgb(0, 0, 0);
+    border: 10px solid rgb(151, 151, 151);
     margin-top: 17%;
 }
 
@@ -140,42 +140,20 @@ input[name="r"] {
     margin-left: -25%;
 }
 
-#r3:checked ~ .s1 {
-    margin-left: -50%;
-}
-
-#r4:checked ~ .s1 {
-    margin-left: -75%;
-}
-
 @-moz-document url-prefix() {
-
     .right-name {
-
         margin-bottom: -10px;
-
     }
-
     .left-name {
-
         margin-bottom: 0px;
-
     }
-
     .right-img {
-
         width: 47%;
-
     }
-
     .left-img {
-
         width: 47%;
-
         margin-left: 53%;
-
     }
-
-} 
+}  
 
 * { margin: 0; padding: 0; } 
