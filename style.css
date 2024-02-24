@@ -160,6 +160,10 @@ a:hover {
     color: black;
 }
 
+.source {
+    font-family: comicrlf;
+}
+
 /* Пора делать костыли для firefox'a 😈 */
 
 @-moz-document url-prefix() {
