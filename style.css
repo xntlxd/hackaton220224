@@ -20,7 +20,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    overflow-x: hiddenrgb(255, 255, 255)
+    overflow-x: hidden;
 }
 
 header {
@@ -100,7 +100,6 @@ a:hover {
 .about-left {
     width: 53%;
     margin-top: -604px;
-    padding: 200px 0 200px 0;
     font-family: clearsans;
     font-size: 170%;
 }
@@ -108,7 +107,6 @@ a:hover {
 .left-name {
     font-family: comicrlf;
     font-size: 145%;
-    margin-left: -6%;
     color: black;
 }
 
